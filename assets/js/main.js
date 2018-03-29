@@ -1,9 +1,3 @@
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	skel.breakpoints({
@@ -111,3 +105,15 @@
 	});
 
 })(jQuery);
+
+$("#main-heading").html(function changeHeaderOnTime(){
+	var currentTime = new Date().getHours();
+	if(currentTime >= 0 && currentTime < 5)
+		return document.getElementById("main-heading").innerHTML = "Go to bed!";
+	else if (currentTime >= 5 && currentTime < 12)
+		return document.getElementById("main-heading").innerHTML = "Good Morning";
+	else if (currentTime >= 12 && currentTime <= 17)
+		return document.getElementById("main-heading").innerHTML = "Good Afternoon";
+	else
+		return document.getElementById("main-heading").innerHTML = "Good Evening";
+});
