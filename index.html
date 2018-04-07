@@ -12,6 +12,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
 	</head>
 	<body>
 
@@ -108,10 +109,10 @@
 							<section id="four">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
+									<p>If you have any questions or just want to reach out, please send me an email below!</p>
+									<form class="emailform" method="post" action="contact-form.php">
 										<div class="row uniform">
-											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="6u 12u(xsmall)"><input type="text" name="username" id="username" placeholder="Name" /></div>
 											<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
 										</div>
 										<div class="row uniform">
@@ -123,7 +124,7 @@
 										<div class="row uniform">
 											<div class="12u">
 												<ul class="actions">
-													<li><input type="submit" class="special" value="Send Message" /></li>
+													<li><input type="submit" class="special" value="Send Message" id="submit" name="submit"/></li>
 													<li><input type="reset" value="Reset Form" /></li>
 												</ul>
 											</div>
