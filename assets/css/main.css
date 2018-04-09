@@ -1588,6 +1588,7 @@
 
 	p {
 		margin: 0 0 2.25em 0;
+		font-size: 18px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2414,9 +2415,9 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
-		margin-bottom: 2.25em;
-		padding-top: 2.25em;
+		border-top: solid 1px #f4f4f4;
+		margin-bottom: 1em;
+		padding-top: 1em;
 	}
 
 		.features article:first-child {
@@ -2426,7 +2427,7 @@
 
 		.features article .image {
 			display: inline-block;
-			padding-right: 2.5em;
+			padding-right: 3.0em;
 			vertical-align: middle;
 			width: 48%;
 		}
