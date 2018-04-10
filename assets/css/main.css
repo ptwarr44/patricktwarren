@@ -2044,7 +2044,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		/*list-style: disc;*/
 		margin: 0 0 2.25em 0;
 		padding-left: 1em;
 	}
@@ -3091,7 +3091,32 @@
 	}
 
 	/* Custom Icons */
+	ul.custom-icons {
+		text-decoration: none;
+		padding-left: 0;
+		width: 100%;
+		border: 0;
+	}
+	ul.custom-icons li {
+		text-decoration: none;
+		margin: 0 0 1.6875em 2em;
+		padding: 0 0 0 1em;
+		position: relative;
+		vertical-align: top;
+		width: 48%;
+		text-transform: none !important;
+	}
 	li.golfer {
-		list-style-image: url('/images/golf-icon.jpg') 20%;
-		padding-left: 100px;
+		list-style: none;
+		list-style-image: url('../../images/golf-icon.jpg');
+	}
+
+	li.weightlifter {
+		text-decoration: none;
+		list-style-image: url('../../images/weightlifting.jpg');
+	}
+
+	li.hiking {
+		text-decoration: none;
+		list-style-image: url('../../images/hiking.jpg');
 	}
