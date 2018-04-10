@@ -3089,3 +3089,9 @@
 			}
 
 	}
+
+	/* Custom Icons */
+	li.golfer {
+		list-style-image: url('/images/golf-icon.jpg') 20%;
+		padding-left: 100px;
+	}
