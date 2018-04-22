@@ -1,11 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url("https://www.flaticon.com/packs/coding-files");
 
 /* Reset */
 
@@ -2564,7 +2559,7 @@
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.50em 0;
 						text-decoration: none;
 					}
 
@@ -3091,21 +3086,14 @@
 	}
 
 	/* Custom Icons */
-	ul.custom-icons {
+	ul.custom-icons li{
 		text-decoration: none;
-		padding-left: 0;
-		width: 100%;
-		border: 0;
-	}
-	ul.custom-icons li {
-		text-decoration: none;
-		margin: 0 0 1.6875em 2em;
-		padding: 0 0 0 1em;
+		display: inline-block;
+		margin: 0 0 1.6875em 0;
 		position: relative;
-		vertical-align: top;
-		width: 48%;
-		text-transform: none !important;
+		padding: 0.35em 0 0 3.5em;
 	}
+
 	li.golfer {
 		list-style: none;
 		list-style-image: url('../../images/golf-icon.jpg');
@@ -3119,4 +3107,9 @@
 	li.hiking {
 		text-decoration: none;
 		list-style-image: url('../../images/hiking.jpg');
+	}
+
+	li.pup {
+		text-decoration: none;
+		list-style-image: url('../../images/pup.jpg');
 	}
