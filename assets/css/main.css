@@ -2629,7 +2629,7 @@
 	}
 
 	#professional-one:before {
-		background-image: url("../../images/portfolio/portfolio.jpg");
+		background-image: url("../../images/career/career-banner.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2706,7 +2706,7 @@
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 1em 0;
 			}
 
 	}
