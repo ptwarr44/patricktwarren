@@ -2821,6 +2821,14 @@
 				height: 10em;
 			}
 
+			#portfolio-one:before {
+				height: 10em;
+			}
+
+			#professional-one:before {
+				height: 10em;
+			}
+
 		/* Off-Canvas Navigation */
 
 			#titleBar {
@@ -3020,6 +3028,14 @@
 			}
 
 			#education-one:before {
+				height: 7em;
+			}
+
+			#portfolio-one:before {
+				height: 7em;
+			}
+
+			#professional-one:before {
 				height: 7em;
 			}
 
