@@ -2606,6 +2606,39 @@
 		width: 100%;
 	}
 
+	#education-one:before {
+		background-image: url("../../images/education/education-banner.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#portfolio-one:before {
+		background-image: url("../../images/portfolio/portfolio.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
+	#professional-one:before {
+		background-image: url("../../images/portfolio/portfolio.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 15em;
+		width: 100%;
+	}
+
 /* Footer */
 
 	#footer {
@@ -2781,6 +2814,10 @@
 		/* One */
 
 			#one:before {
+				height: 10em;
+			}
+
+			#education-one:before {
 				height: 10em;
 			}
 
@@ -2979,6 +3016,10 @@
 		/* One */
 
 			#one:before {
+				height: 7em;
+			}
+
+			#education-one:before {
 				height: 7em;
 			}
 
