@@ -22,7 +22,7 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		/* list-style: none; */
 	}
 
 	blockquote, q {
@@ -2026,6 +2026,54 @@
 				width: 100%;
 			}
 
+			/* Image */
+
+	.image2 {
+		border-radius: 5px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image2 img {
+			border-radius: 5px;
+			display: block;
+		}
+
+		.image2.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image2.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image2.fit {
+			display: block;
+			margin: 0 0 1.25em 0;
+			width: 100%;
+		}
+
+			.image2.fit img {
+				display: block;
+				width: 100%;
+			}
+
+		.image2.avatar {
+			border-radius: 100%;
+			overflow: hidden;
+		}
+
+			.image2.avatar img {
+				border-radius: 100%;
+				display: block;
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
@@ -2424,7 +2472,7 @@
 			display: inline-block;
 			padding-right: 3.0em;
 			vertical-align: middle;
-			width: 48%;
+			width: 38%;
 		}
 
 			.features article .image img {
@@ -2432,10 +2480,22 @@
 				width: 100%;
 			}
 
+			.features article .image2 {
+				display: inline-block;
+				padding-right: 1.0em;
+				vertical-align: middle;
+				width: 38%;
+			}
+	
+				.features article .image2 img {
+					display: block;
+					width: 100%;
+				}
+
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 60%;
 		}
 
 			.features article .inner > :last-child {
@@ -2763,6 +2823,14 @@
 					width: 100%;
 				}
 
+				.image2.left, image2.right {
+					max-width: 60%;
+				}
+
+				.image2.left img, .image2.right img {
+					width: 100%;
+				}
+
 		/* Header */
 
 			#header {
@@ -2955,6 +3023,14 @@
 				margin: 0 0 1em 1.5em;
 			}
 
+			.image2.left {
+				margin: 0 0 0 0;
+			}
+
+			.image2.right {
+				margin: 0 0 0 0;
+			}
+
 		/* Section/Article */
 
 			header br {
@@ -2972,6 +3048,13 @@
 		/* Features */
 
 			.features article .image {
+				display: block;
+				margin: 0 0 2.25em 0;
+				padding-right: 0;
+				width: 100%;
+			}
+
+			.features article .image2 {
 				display: block;
 				margin: 0 0 2.25em 0;
 				padding-right: 0;
@@ -3143,17 +3226,27 @@
 	}
 
 	/* Custom Icons */
+	ul.custom-icons {
+		list-style: none;
+		margin: 0 0 2em 0;
+		padding: 0 0 0 2em;
+	}
+
 	ul.custom-icons li{
-		text-decoration: none;
+		padding-left: 2em;
 		display: inline-block;
 		margin: 0 0 1.6875em 0;
 		position: relative;
-		padding: 0.35em 0 0 3.5em;
+		vertical-align: top;
+		width: 48%;
 	}
 
-	li.golfer {
-		list-style: none;
-		list-style-image: url('../../images/golf-icon.jpg');
+	li.golfer::before {
+		
+		content: url('../../images/golf-icon.jpg');
+		/* text-decoration: none; */
+		margin-left: -2em;
+		width: 2em;
 	}
 
 	li.weightlifter {
@@ -3169,4 +3262,15 @@
 	li.pup {
 		text-decoration: none;
 		list-style-image: url('../../images/pup.jpg');
+	}
+
+	/* Drop Down Menu */
+	.dropdown-submenu {
+		position: relative;
+	}
+	
+	.dropdown-submenu .dropdown-menu {
+		top: 0;
+		left: 100%;
+		margin-top: -1px;
 	}
